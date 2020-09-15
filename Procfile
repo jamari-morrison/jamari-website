@@ -1,0 +1,1 @@
+web: gunicorn Jamari_Morrison.wsgi
