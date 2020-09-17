@@ -714,7 +714,7 @@ body{
       height: 20vh;
       margin-left: auto;
       margin-right: auto;
-      overflow-x: auto;
+      overflow-x: hidden;
       overflow-y: hidden;
 
       top: -5%;
