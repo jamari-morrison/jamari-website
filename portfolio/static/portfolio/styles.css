@@ -39,6 +39,7 @@ body{
     -ms-user-select: none;
     user-select: none;
     text-decoration: none;
+    color: black;
   }
   a:visited{
       text-decoration: none;
@@ -153,10 +154,11 @@ body{
     transform: translateY(-80vh);
   }
 
+.email-phone-wrapper{
+    width: 0;
+    height: 0;
+}
 
-  .contact-linkedin-link{
-      z-index: 1;
-  }
   .wrapper{
 
       justify-content: space-around;
@@ -715,7 +717,9 @@ body{
 }
 
 
-
+.linkedin-text{
+    opacity: 0;
+}
 .contact-images{
     justify-content: space-around;
       display: flex;
@@ -979,11 +983,13 @@ body{
 
     .contact-images{
 
-
+          display: flex;
+          flex-direction: column;
           top: 5rem;
-          width: 100%;
-          height: 180px;
-
+          width: 280px;
+          height: 10px;
+            margin-left: auto;
+            margin-right: auto;
           position: relative;
 
 
@@ -1003,9 +1009,41 @@ body{
         height: 3rem;
         white-space: nowrap;
         top: 1px;
+        left: 30px;
     }
+    .linkedin-div{
+        position: relative;
+        width: 64px;
+        width: 64px;
+        text-overflow: nowrap;
+        height: 3rem;
+        white-space: nowrap;
+        top: 95px;
+        left: 0px;
+    }
+    .linkedin-icon{
+        left:0;
+        width: 35px;
+        height: 35px;
+        position: relative;
+        opacity: 0.9;
+    }
+
+    .linkedin-text{
+        opacity: 1;
+        text-align: left;
+        left: 0;
+        top: 0;
+        color:hsl(0, 0%, 97%);
+        font-weight: 400;
+        font-size: 20px;
+        position: relative;
+        top: -36px;
+        left: 41px;
+    }
+
     .email-icon{
-        left:-0.6rem;
+        left:0;
         width: 35px;
         height: 35px;
         position: relative;
@@ -1025,10 +1063,10 @@ body{
     }
 
     .phone-icon{
-        left:-78vw;
+        left: 0;
         width: 35px;
         height: 35px;
-        top: 50px;
+        top: 0px;
         position: relative;
         opacity: 0.9;
 
@@ -1036,7 +1074,7 @@ body{
     }
 
     .email {
-        left: 8vw;
+        left: 40px;
         top: -36px;
         font-size: 18px;
         position: relative;
@@ -1047,8 +1085,8 @@ body{
 
     .phone{
         text-align: left;
-        left: -68vw;
-        top: 14px;
+        left: 40px;
+        top: -36px;
         color:hsl(0, 0%, 97%);
         font-weight: 400;
         font-size: 20px;
@@ -1074,7 +1112,7 @@ body{
     top: 50%;
 }
 .contact-form{
-    top: -50px;
+    top: -0px;
 
 }
 
@@ -1085,3 +1123,4 @@ body{
 
 
 
+  
