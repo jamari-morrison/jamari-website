@@ -108,6 +108,10 @@ body{
     color: black;
     transition: all .5s ease-in-out;
   }
+
+  h1{
+    overflow-x: show;
+  }
   .nav{
 
     position: absolute;
@@ -805,13 +809,7 @@ body{
     }
     .projects-title{
         font-size: 4vw;
-        width:47vw;
-    }
-    .contact-header{
-        width: 41vw;
-    }
-    .title{
-        width: 57vw;
+        width:45vw;
     }
 
     .project1{
