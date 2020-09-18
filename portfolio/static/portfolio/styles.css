@@ -224,8 +224,9 @@ body{
       position: absolute;
       opacity: 1;
       color:hsl(0, 0%, 97%);
-      width:55vw;
+      width:61vw;
       height: 15rem;
+      font-weight: 700;
       margin-left: auto;
       margin-right: auto;
       overflow-x: auto;
@@ -233,7 +234,7 @@ body{
       top: 35%;
       left: 0;
       right: 0;
-      font-size: 4vw;
+      font-size: 9vw;
       font-family: Helvetica;
       display: flex;
 
@@ -386,7 +387,7 @@ body{
       position: absolute;
       opacity: 1;
       color:hsl(0, 0%, 97%);
-      width:34vw;
+      width:44vw;
       height: 20vh;
       margin-left: auto;
       margin-right: auto;
@@ -395,7 +396,8 @@ body{
       top: 0%;
       left: 0;
       right: 0;
-      font-size: 3vw;
+      font-size: 6vw;
+      font-weight: 700;
       font-family: Helvetica;
       display: flex;
 
