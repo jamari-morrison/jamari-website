@@ -805,7 +805,13 @@ body{
     }
     .projects-title{
         font-size: 4vw;
-        width:45vw;
+        width:47vw;
+    }
+    .contact-header{
+        width: 41vw;
+    }
+    .title{
+        width: 57vw;
     }
 
     .project1{
