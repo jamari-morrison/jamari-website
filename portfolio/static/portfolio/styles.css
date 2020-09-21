@@ -26,6 +26,7 @@ body{
     overflow-x: hidden;
     width: 100vw;
     font-size: 100%;
+    margin-bottom: 100px;
   }
   h1{
     -webkit-user-select: none;
@@ -221,17 +222,17 @@ body{
 
 
   .title{
-      position: absolute;
+      position: relative;
       opacity: 1;
       color:hsl(0, 0%, 97%);
-      width:61vw;
+      width:63%;
       height: 15rem;
       font-weight: 700;
       margin-left: auto;
       margin-right: auto;
-      overflow-x: auto;
-      overflow-y: hidden;
-      top: 35%;
+      overflow-x: visible;
+      overflow-y: visible;
+      top: 27%;
       left: 0;
       right: 0;
       font-size: 9vw;
@@ -384,15 +385,15 @@ body{
 }
 
 .projects-title{
-      position: absolute;
+      position: relative;
       opacity: 1;
       color:hsl(0, 0%, 97%);
-      width:44vw;
-      height: 20vh;
+      width:44%;
+      height: 0vh;
       margin-left: auto;
       margin-right: auto;
-      overflow-x: auto;
-      overflow-y: hidden;
+      overflow-x: visible;
+      overflow-y: visible;
       top: 0%;
       left: 0;
       right: 0;
@@ -718,12 +719,13 @@ body{
       opacity: 1;
       color:hsl(0, 0%, 97%);
       width:55%;
-      height: 20vh;
+      height: 5vh;
       margin-left: auto;
       margin-right: auto;
       overflow-x: visible;
       overflow-y: visible;
-
+        margin-top: 0;
+        padding-top: 0;
       top: -5%;
       left: 0;
       right: 0;
@@ -812,8 +814,10 @@ body{
         transform-origin: 0 0;
     }
     .projects-title{
-        font-size: 4vw;
-        width:45vw;
+        font-size: 7vw;
+        width:50vw;
+        height: 5vh;
+        top: 5vh;
     }
 
     .project1{
