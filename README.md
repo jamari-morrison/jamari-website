@@ -1,35 +1,38 @@
-#Jamari's Portfolio Website
+# Jamari's Portfolio Website
 > Visit at www.jamari.tech!
 
 ![homepage](https://github.com/jamari-morrison/jamari-website/blob/master/images/homepage-image.png)
+![mobile-homepage](https://github.com/jamari-morrison/jamari-website/blob/master/images/mobile-homepage-image.png)
 
-##Description 📋
+
+## Description 📋
 My portfolio built as a quick, responsive web application.
 Learned how to use HTML, CSS, and JavaScript  to create a responsive website that is easy to use on various platforms and browsers.
 Used the Django framework (in Python) to handle the website's backend, heroku for online hosting, and get.tech for the custom domain.
+<br />
+<br />
 
-
-##Technologies Used ⚡️
-###Python
+## Technologies Used ⚡️
+### Python
    - Language used for the backend of the website. <br /> 
    - The "Let's talk" form at the bottom of the page automatically emails submitted information to my email using smtplib. <br />
    - Code relating to Django written in Python <br />
    
-###Django
+### Django
    - This framework was used as the backend for the website. <br />
    
-###HTML/CSS/JavaScript
+### HTML/CSS/JavaScript
    - Used this classic trio for the frontend display of the website. <br />
    - Javascript is used to randomize the values for the landing page's floating background squares, for smooth scrolling to elements, and for the responsive hamburger menu.
 
-###Heroku
+### Heroku
    - Used Heroku to handle online hosting. <br />
 <br />
 <br />   
-<br />
 
-##Resources
-The following are resources I used to learning the tools in this project:
+
+## Resources
+The following are resources I used to learning the tools in this project: <br /> <br />
 
 HTML/CSS:<br />
 https://www.w3schools.com/ <br />
