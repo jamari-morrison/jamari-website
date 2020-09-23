@@ -12,7 +12,7 @@
 ## Description 📋
 My portfolio built as a quick, responsive web application.
 Learned how to use HTML, CSS, and JavaScript  to create a responsive website that is easy to use on various platforms and browsers.
-Used the Django framework (in Python) to handle the website's backend, heroku for online hosting, and get.tech for the custom domain.
+Used the Django framework (in Python) to handle the website's backend, Heroku for online hosting, and Get.tech for the custom domain.
 <br />
 <br />
 
@@ -36,7 +36,7 @@ Used the Django framework (in Python) to handle the website's backend, heroku fo
 
 
 ## Resources 📚
-The following are resources I used to learning the tools in this project: <br /> <br />
+The following are resources I used to learn the tools in this project: <br /> <br />
 
 HTML/CSS:<br />
 https://www.w3schools.com/ <br />
