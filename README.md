@@ -35,7 +35,7 @@ Used the Django framework (in Python) to handle the website's backend, heroku fo
 <br />   
 
 
-## Resources
+## Resources 📚
 The following are resources I used to learning the tools in this project: <br /> <br />
 
 HTML/CSS:<br />
