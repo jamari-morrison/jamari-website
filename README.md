@@ -1,8 +1,10 @@
 # Jamari's Portfolio Website
 > Visit at www.jamari.tech!
 
+## Dekstop view
 ![homepage](https://github.com/jamari-morrison/jamari-website/blob/master/images/homepage-image.png)
-![mobile-homepage](https://github.com/jamari-morrison/jamari-website/blob/master/images/mobile-homepage-image.png)
+
+## Mobile View
 <p align="center">
   <img src="https://github.com/jamari-morrison/jamari-website/blob/master/images/mobile-homepage-image.png">
 </p>
