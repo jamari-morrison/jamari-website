@@ -3,8 +3,7 @@ Visit at www.jamari.tech!
 
 Built using HTML, CSS, and Javascript for the frontend, with python and Django for the backend.  Heroku is used for hosting and the domain was acquired from get.tech.
 
-<<image of homepage here!
-![image of homepage]()
+![image of homepage](https://github.com/jamari-morrison/jamari-website/blob/master/images/homepage-image.png)
 
 ##Technologies Used
 ###Python
