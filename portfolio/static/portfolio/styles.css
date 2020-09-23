@@ -26,7 +26,7 @@ body{
     overflow-x: hidden;
     width: 100vw;
     font-size: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 2000px;
   }
   h1{
     -webkit-user-select: none;
@@ -427,7 +427,7 @@ body{
 
 .scroll-target{
     position: relative;
-    top: 0%;
+    top: calc(20vh + 60px)
 }
 .test-bar{
     background: #8c529e;
@@ -718,7 +718,7 @@ body{
       position: relative;
       opacity: 1;
       color:hsl(0, 0%, 97%);
-      width:55%;
+      width:56%;
       height: 5vh;
       margin-left: auto;
       margin-right: auto;
@@ -1140,7 +1140,7 @@ body{
 }
 
 .scroll-target{
-    top: 50%;
+    top: calc(50% + 70vh);
 }
 .contact-form{
     top: -0px;
