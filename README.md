@@ -3,7 +3,9 @@
 
 ![homepage](https://github.com/jamari-morrison/jamari-website/blob/master/images/homepage-image.png)
 ![mobile-homepage](https://github.com/jamari-morrison/jamari-website/blob/master/images/mobile-homepage-image.png)
-
+<p align="center">
+  <img src="https://github.com/jamari-morrison/jamari-website/blob/master/images/mobile-homepage-image.png">
+</p>
 
 ## Description 📋
 My portfolio built as a quick, responsive web application.
