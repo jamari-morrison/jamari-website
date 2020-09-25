@@ -424,14 +424,14 @@ body{
 
 }
 
-
 .scroll-target{
     position: relative;
     top: calc(20vh + 60px)
 }
+
 .test-bar{
     background: #8c529e;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 1.5px;
     left: 0%;
