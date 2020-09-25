@@ -26,7 +26,6 @@ body{
     overflow-x: hidden;
     width: 100vw;
     font-size: 100%;
-    margin-bottom: 2000px;
   }
   h1{
     -webkit-user-select: none;
@@ -669,6 +668,7 @@ body{
     text-align: center;
     box-shadow: 0 0 20px #000000b3;
     font-family: serif;
+    margin-bottom: 100px;
 }
 
 .contact-form h1{
@@ -800,9 +800,8 @@ body{
     text-align: center;
     left: -3.25rem;
     position: relative;
-
-
 }
+
 
 @media only screen and (max-width: 600px){
 
