@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="{% static 'portfolio/styles.css' %}">
-    <script src="test.js" defer></script>
+    <script src="{% static 'portfolio/animation.js' %}" defer></script>
     <title>Jamari</title>
 </head>
 <body>
@@ -24,8 +24,8 @@
     <div class="test-bar">
     </div>
             <h2 class="wrapper">
-        <a href="https://www.linkedin.com/in/jamari-morrison-59247b194/"target="_blank"><img class="linkedin" src="linkedin.png" alt="aww"></a>
-        <a href="https://github.com/RedCater"target="_blank"><img class="github" src="github.png"></a>
+        <a href="https://www.linkedin.com/in/jamari-morrison-59247b194/"target="_blank"><img class="linkedin" src="{% static 'portfolio/linkedin.png' %}" alt="aww"></a>
+        <a href="https://github.com/RedCater"target="_blank"><img class="github" src="{% static 'portfolio/github.png' %}"></a>
 
             <a href="127.0.0.1:5500/CSSE232HW4"><span class="resume">RESUME</span></a>
             <a><span class="contactMe">CONTACT ME</span></a>
@@ -64,7 +64,7 @@
 
         <a href="https://github.com/RealJasomo/LegoInventoryTrackerProject">
             <div class="project-code">
-                <img class="proj1github" src="black-github.png" alt="placeholder">
+                <img class="proj1github" src="{% static 'portfolio/black-github.png' %}" alt="placeholder">
                 <p>view code</p>
                 <a href="https://lego-inventory-tracker.herokuapp.com/"><p class="proj1demo">view demo</p></a>
             </div>
@@ -73,9 +73,9 @@
 
 
         <div class="project1images">
-        <img class="proj1react" src="react-logo.png" alt="react">
-        <img class="proj1mssql" src="mssql-logo.png" alt="mssql">
-        <img class="proj1python" src="python-logo.png" alt="python">
+        <img class="proj1react" src="{% static 'portfolio/react-logo.png' %}" alt="react">
+        <img class="proj1mssql" src="{% static 'portfolio/mssql-logo.png' %}" alt="mssql">
+        <img class="proj1python" src="{% static 'portfolio/python-logo.png' %}" alt="python">
     </div>
     </div>
 
@@ -87,14 +87,14 @@
         </div>
         <a href="https://github.com/jamari-morrison/jamari-website">
         <div class="project-code">
-        <img class="proj1github" src="black-github.png" alt="placeholder">
+        <img class="proj1github" src="{% static 'portfolio/black-github.png' %}" alt="placeholder">
         <p>view code</p>
         </div>
     </a>
         <div class="project2images">
-            <img class="proj2django" src="django-logo.png" alt="flask-image">
-            <img class="proj2js" src="js-logo.png" alt="mysql-image">
-            <img class="proj2python" src="python-logo.png" alt="python-image">
+            <img class="proj2django" src="{% static 'portfolio/django-logo.png' %}" alt="flask-image">
+            <img class="proj2js" src="{% static 'portfolio/js-logo.png' %}" alt="mysql-image">
+            <img class="proj2python" src="{% static 'portfolio/python-logo.png' %}" alt="python-image">
         </div>
     </div>
 
@@ -107,14 +107,14 @@
         </div>
         <a href="https://github.com/jamari-morrison/threes-ai">`
         <div class="project-code">
-        <img class="proj1github" src="black-github.png" alt="placeholder">
+        <img class="proj1github" src="{% static 'portfolio/black-github.png' %}" alt="placeholder">
         <p>view code</p>
         </div>
     </a>
         <div class="project3images">
-            <img class="proj3threes" src="threes-logo.png" alt="flask-image">
-            <img class="proj3tree" src="tree.png" alt="mysql-image">
-            <img class="proj3react" src="react-logo.png" alt="mysql-image">
+            <img class="proj3threes" src="{% static 'portfolio/threes-logo.png' %}" alt="flask-image">
+            <img class="proj3tree" src="{% static 'portfolio/tree.png' %}" alt="mysql-image">
+            <img class="proj3react" src="{% static 'portfolio/react-logo.png' %}" alt="mysql-image">
         </div>
     </div>
 
@@ -127,7 +127,7 @@
             and MongoDB.
         </div>
         <div class="project4images">
-            <img class="proj4leidos" src="leidos-logo.png" alt="flask-image">
+            <img class="proj4leidos" src="{% static 'portfolio/leidos-logo.png' %}" alt="flask-image">
         </div>
     </div>
 
@@ -140,7 +140,7 @@
         </div>
 
         <div class="project5images">
-            <img class="proj5rose" src="rose-logo.png" alt="flask-image">
+            <img class="proj5rose" src="{% static 'portfolio/rose-logo.png' %}" alt="flask-image">
         </div>
     </div>
 
@@ -152,17 +152,17 @@
     <div class="contact-header">CONTACT ME</div>
     <div class="contact-images">
         <div class="email-div">
-            <img class="email-icon" src="email-icon.png" alt="email">
+            <img class="email-icon" src="{% static 'portfolio/email-icon.png' %}" alt="email">
             <div class="email">morrisjj@rose-hulman.edu</div>
         </div>
         <a href="https://www.linkedin.com/in/jamari-morrison-59247b194/"><div class="linkedin-div">
-            <img class="linkedin-icon" src="linkedin.png" alt="linkedin">
+            <img class="linkedin-icon" src="{% static 'portfolio/linkedin.png' %}" alt="linkedin">
             <div class="linkedin-text">My Linkedin!</div>
 
         </div>
         </a>
         <div class="phone-div">
-            <img class="phone-icon" src="phone-icon.png" alt="phone">
+            <img class="phone-icon" src="{% static 'portfolio/phone-icon.png' %}" alt="phone">
             <div class="phone">618-741-6714</div>
         </div>
 
@@ -194,6 +194,6 @@
 
 
 </div>
-<script src="main.js"></script>
+<script src="{% static 'portfolio/main.js' %}"></script>
 
 </body>
