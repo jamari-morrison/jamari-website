@@ -1,3 +1,5 @@
+import sys
+
 from django.shortcuts import render
 from django.http import HttpResponse
 import smtplib, ssl
@@ -20,10 +22,15 @@ def home(request):
         password = os.environ.get('SENDER_PASSWORD')
         sender_email = os.environ.get('SENDER_EMAIL')
         receiver_email = os.environ.get('MY_EMAIL')
+
+
         message = "From: Kaori Miyazono\n" +\
                   "Name/Company is >" + request.POST['one'] + "\n Email to get back to is> " +"'"+ request.POST['two']+"'" +"\n And their message is> "+ request.POST['three']+"\n" \
                   + "\n \n I like this world.  It's not perfect, but everything I love now is in it. \n Kaori Miyazono \n \n \n"
+        print(password +"<password "+sender_email+"<sneder "+receiver_email+"<recv")
 
+        print(message)
+        sys.stdout.flush()
         # Create a secure SSL context
         context = ssl.create_default_context()
         with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
