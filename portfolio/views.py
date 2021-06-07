@@ -27,7 +27,6 @@ def home(request):
         message = "From: Kaori Miyazono\n" +\
                   "Name/Company is >" + request.POST['one'] + "\n Email to get back to is> " +"'"+ request.POST['two']+"'" +"\n And their message is> "+ request.POST['three']+"\n" \
                   + "\n \n I like this world.  It's not perfect, but everything I love now is in it. \n Kaori Miyazono \n \n \n"
-        print(password +"<password "+sender_email+"<sneder "+receiver_email+"<recv")
 
         print(message)
         sys.stdout.flush()

@@ -1009,6 +1009,9 @@ body{
     .project3 .project-text{
         width: 125%;
     }
+    .project1 .project-text{
+        width: 125%;
+    }
     .project-code{
         position: relative;
         top: 9rem;
