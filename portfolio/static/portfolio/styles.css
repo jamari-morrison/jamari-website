@@ -451,6 +451,10 @@ body{
     top: -5%;
 }
 
+.project1 .project-text{
+    width: 60%;
+}
+
 .project-text{
     width: 70%;
     top: 5%;
@@ -474,26 +478,26 @@ body{
     left: 65%;
 
 }
-.proj1flask{
+.proj1react{
     position: absolute;
-    left: 10%;
-    width: 23%;
+    left: 0%;
+    width: 43%;
     height: 65%;
     top: 0%;
 }
-.proj1mysql{
+.proj1mssql{
     position: absolute;
     left: 20%;
-    width: 60%;
-    height: 100%;
-    top:25%;
+    width: 50%;
+    height: 90%;
+    top:15%;
 }
 .proj1python{
     position: absolute;
-    left: 65%;
+    left: 68%;
     width: 30%;
     height: 50%;
-    top: 0%;
+    top: 5%;
 }
 
 .proj1github{
@@ -502,6 +506,11 @@ body{
     top: 2rem;
     width: 30px;
     height: 30px;
+}
+.proj1demo{
+    position: relative;
+    top: -26.5px;
+    left: 130px;
 }
 
 .project p{
@@ -516,13 +525,9 @@ body{
 .project1{
     top: 800px;
 }
-.project1 .project-code{
-    visibility: hidden;
-}
 
-.project3 .project-code{
-    visibility: hidden;
-}
+
+
 
 .project2{
     top: 300px;
@@ -598,20 +603,32 @@ body{
     position: relative;
 }
 
-.proj3java{
-    width: 45%;
-    height: 80%;
+.proj3threes{
+    width: 25%;
+    height: 50%;
     position: relative;
-    left: 0%;
-    right: 0%;
-    top: 30%;
+    left: -10%;
+    top: -20%;
 }
 
-.proj3nn{
+.proj3tree{
+    width: 70%;
+    height: 75%;
+    right: -0%;
+    bottom: 0%;
+    position: relative;
+
+}
+
+.project3 .project-text{
+    width: 50%;
+}
+.proj3react{
     width: 50%;
     height: 60%;
     position: relative;
-    left: 0%;
+    left: -16%;
+    top:-27%;
 }
 
 .proj4leidos{
@@ -988,6 +1005,9 @@ body{
         left: -10%;
         top: 0;
         font-size: calc(8px + 1.5vw);
+    }
+    .project3 .project-text{
+        width: 125%;
     }
     .project-code{
         position: relative;
