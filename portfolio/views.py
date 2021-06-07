@@ -27,7 +27,7 @@ def home(request):
         # Create a secure SSL context
         context = ssl.create_default_context()
         with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
-            server.login(sender_email, password)
+            server.login("UtsukushiiNee@gmail.com", password)
             server.sendmail(sender_email, receiver_email, message)
             server.quit()
         return render(request, 'portfolio/index.html')
