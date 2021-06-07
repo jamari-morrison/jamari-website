@@ -1,4 +1,5 @@
 
+
 const one = document.querySelector('#box-area');
 const time = 1;
 const work = one.children;
