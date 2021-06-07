@@ -150,12 +150,13 @@
 </div>
 <div class="contact-me">
     <div class="contact-header">CONTACT ME</div>
+
     <div class="contact-images">
         <div class="email-div">
             <img class="email-icon" src="{% static 'portfolio/email-icon.png' %}" alt="email">
             <div class="email">morrisjj@rose-hulman.edu</div>
         </div>
-        <a href="https://www.linkedin.com/in/jamari-morrison-59247b194/"><div class="linkedin-div">
+<a href="https://www.linkedin.com/in/jamari-morrison-59247b194/"><div class="linkedin-div">
             <img class="linkedin-icon" src="{% static 'portfolio/linkedin.png' %}" alt="linkedin">
             <div class="linkedin-text">My Linkedin!</div>
 
@@ -169,28 +170,31 @@
     </div>
 
 
-
-    <div class="contact-form"> {% csrf_token %}
+<form method="post"> {% csrf_token %}
+    <div class="contact-form">
         <div class="scroll-target"></div>
         <h1>Let's talk</h1>
             <div class="txtb">
                 <label>Name/Company</label>
-                <input type="text" name="" value="" placeholder="Enter name/Company">
+                <input type="text" name="one" value="" placeholder="Enter name/Company">
             </div>
 
             <div class="txtb">
                 <label>Email</label>
-                <input type="text" name="" value="" placeholder="Enter an Email">
+                <input type="text" name="two" value="" placeholder="Enter an Email">
             </div>
 
             <div class="txtb">
                 <label>Message:</label>
-                <textarea></textarea>
+                <textarea name="three" value="">
+                </textarea>
+
             </div>
 
-            <a class="btn">Submit</a>
+            <input class="btn" type="submit" Submit>
 
 </div>
+</form>
 
 
 </div>
